@@ -1,9 +1,6 @@
-# Akrion
-Lightweight defence/SOC for your server!
-
 ## Information:
-```bash
-It's empty so far!
+```
+Akrion — Lightweight defence/SOC for your server!
 ```
 
 ## 💿 Installation:
