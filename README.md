@@ -3,8 +3,8 @@ Lightweight defence/SOC for your server!
 
 
 
-#📦 Installation:
-## 📚 Libraries:
+# 📦 Installation:
+## 🗂️ Libraries:
 ```bash
 It's empty so far!
 ```
