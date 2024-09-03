@@ -23,7 +23,7 @@ It's empty so far!
 It's empty so far!
 ```
 
-### ♻️ With support
+### ♻️ With support:
 ```bash
 It's empty so far!
 ```
