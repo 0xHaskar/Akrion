@@ -18,7 +18,7 @@ It's empty so far!
 It's empty so far!
 ```
 
-### Thanks:
+### 📌 Thanks:
 ```bash
 It's empty so far!
 ```
