@@ -3,7 +3,7 @@
 Akrion — Lightweight defence/SOC for your server!
 ```
 ☑ TCP <br>
-🔲 Discord WebHook <br>
+🔲 Discord Webhook <br>
 🔲 SSH <br>
 🔲 Fail2ban
 
