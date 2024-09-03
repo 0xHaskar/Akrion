@@ -3,17 +3,17 @@ Lightweight defence/SOC for your server!
 
 
 ## 📦 Installation:
-### 🗂️ Libraries:
+### 🗂️ 1. Libraries:
 ```bash
 It's empty so far!
 ```
 
-### 💾 Install:
+### 💾 2. Install:
 ```bash
 It's empty so far!
 ```
 
-### ⚙️ Configuration:
+### ⚙️ 3. Configuration:
 ```bash
 It's empty so far!
 ```
