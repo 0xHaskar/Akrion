@@ -2,7 +2,7 @@
 Lightweight defence/SOC for your server!
 
 
-## 📦 Installation:
+## 💿 Installation:
 ### 🗂️ 1. Libraries:
 ```bash
 It's empty so far!
