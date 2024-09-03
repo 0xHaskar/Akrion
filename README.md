@@ -13,7 +13,7 @@ It's empty so far!
 It's empty so far!
 ```
 
-### Configuration:
+### ⚙️ Configuration:
 ```bash
 It's empty so far!
 ```
