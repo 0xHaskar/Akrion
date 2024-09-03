@@ -2,6 +2,9 @@
 ```
 Akrion — Lightweight defence/SOC for your server!
 ```
+☑ TCP <br>
+🔲 Discord WebHook <br>
+🔲 SSH
 
 ## 💿 Installation:
 ### 🗂️ 1. Libraries:
