@@ -2,9 +2,9 @@
   <img width="400" height="300" src="https://styleall.ru/wp-content/uploads/2023/02/4eebee67599783.y3jvccwymzyxlde4ndcsntcyldmxnq.jpg">
 </p>
 <p align="center"> 
-      <img src="https://img.shields.io/github/stars/0xHaskar/Obsidian-Pentest.svg" alt="Stars">
-      <img src="https://img.shields.io/github/forks/0xHaskar/Obsidian-Pentest.svg" alt="Fork">
-      <img src="https://img.shields.io/github/license/0xHaskar/Obsidian-Pentest.svg" alt="License">
+      <img src="https://img.shields.io/github/stars/0xHaskar/Akrion.svg" alt="Stars">
+      <img src="https://img.shields.io/github/forks/0xHaskar/Akrion.svg" alt="Fork">
+      <img src="https://img.shields.io/github/license/0xHaskar/Akrion.svg" alt="License">
 </p>
 
 ## Information:
