@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="750" height="300" src="https://cdn.discordapp.com/attachments/1146054398301196348/1280976143662710806/5.png?ex=66da0980&is=66d8b800&hm=f81e01cd53ca3de9df98efb1c10d8648f91b7de7b5d004efc51abf2b3898c1ad&">
+  <img src="https://cdn.discordapp.com/attachments/1146054398301196348/1280976143662710806/5.png?ex=66da0980&is=66d8b800&hm=f81e01cd53ca3de9df98efb1c10d8648f91b7de7b5d004efc51abf2b3898c1ad&">
 </p>
 <p align="center"> 
       <img src="https://img.shields.io/github/stars/0xHaskar/Akrion.svg" alt="Stars">
