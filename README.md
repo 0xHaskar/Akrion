@@ -45,9 +45,10 @@ Please also note the following:<br>
 > Local Privilege Escalation (LPE) is a type of vulnerability that allows a user or process to gain a higher level of rights or privileges on a computer or network system than originally granted. LPE can be exploited by attackers to gain elevated access to resources or execute commands with increased privileges.
 <br>
 Note the following tools:<br>
-1. <br>
-2. <br>
-3. <br>
+
+1. [PEASS-ng](https://github.com/peass-ng/PEASS-ng) — Privilege Escalation Awesome Scripts SUITE of the new generation. Here you will find privilege escalation tools for Windows, Linux/Unix*, and MacOS.
+2. [Sploitify](https://sploitify.haxx.it/) — is an interactive cheat sheet containing a carefully selected list of publicly available server-side (mostly) exploits. Its purpose is to help you find exploits that may be useful in various aspects of your offensive security. And, of course, it should not be used for illegal or malicious activities.
+
 If this list isn't enough for you:<br>
 
 1. [RU] [Obsidian-Pentest -> LPE](https://github.com/0xHaskar/Obsidian-Pentest/blob/main/Obsidian-Pentest/Hacking-all/OSCP%20and%20CPTS/LPE.md)
