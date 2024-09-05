@@ -38,18 +38,20 @@ It's empty so far!
 ### 📝 Additionally:
 I had the idea to name a concept that I believe may already exist and might have its own established name, but I want to call it the "Unarmed Container/Server."<br><br>
 The concept of "Unarmed Container/Server" implies a minimalist approach to deploying and managing infrastructure. The main idea is to include only those components and tools in the container or server that are truly necessary for performing specific tasks. This helps to reduce potential vulnerabilities, decrease the image size, and simplify management.<br>
-[Read more [RU]](https://habr.com/ru/companies/oleg-bunin/articles/799773/)<br> <br>
+[Read more](https://habr.com/ru/companies/oleg-bunin/articles/799773/) [RU]<br> <br>
 
 Please also note the following:<br>
 > [!Note]
 > Local Privilege Escalation (LPE) is a type of vulnerability that allows a user or process to gain a higher level of rights or privileges on a computer or network system than originally granted. LPE can be exploited by attackers to gain elevated access to resources or execute commands with increased privileges.
 <br>
 Note the following tools:<br>
-> 1. <br>
-> 2. <br>
-> 3. <br>
+1. <br>
+2. <br>
+3. <br>
 If this list isn't enough for you:<br>
-[LPE](https://github.com/0xHaskar/Obsidian-Pentest/blob/main/Obsidian-Pentest/Hacking-all/OSCP%20and%20CPTS/LPE.md)
+
+1. [RU] [Obsidian-Pentest -> LPE](https://github.com/0xHaskar/Obsidian-Pentest/blob/main/Obsidian-Pentest/Hacking-all/OSCP%20and%20CPTS/LPE.md)
+2. [RU] [Obsidian-Pentest -> AD](https://github.com/0xHaskar/Obsidian-Pentest/tree/main/Obsidian-Pentest/Hacking-all/AD) 
 
 ### 📌 Thanks:
 ```bash
