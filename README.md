@@ -38,7 +38,7 @@ It's empty so far!
 ### 📝 Additionally:
 I had the idea to name a concept that I believe may already exist and might have its own established name, but I want to call it the "Unarmed Container/Server."<br><br>
 The concept of "Unarmed Container/Server" implies a minimalist approach to deploying and managing infrastructure. The main idea is to include only those components and tools in the container or server that are truly necessary for performing specific tasks. This helps to reduce potential vulnerabilities, decrease the image size, and simplify management.<br>
-[Read more](https://habr.com/ru/companies/oleg-bunin/articles/799773/) [RU]<br> <br>
+[Read more](https://habr.com/ru/companies/oleg-bunin/articles/799773/) [RU] <br> <br>
 
 Please also note the following:<br>
 > [!Note]
@@ -47,8 +47,9 @@ Please also note the following:<br>
 Note the following tools:<br>
 
 1. [PEASS-ng](https://github.com/peass-ng/PEASS-ng) — Privilege Escalation Awesome Scripts SUITE of the new generation. Here you will find privilege escalation tools for Windows, Linux/Unix*, and MacOS.
-2. [Sploitify](https://sploitify.haxx.it/) — is an interactive cheat sheet containing a carefully selected list of publicly available server-side (mostly) exploits. Its purpose is to help you find exploits that may be useful in various aspects of your offensive security. And, of course, it should not be used for illegal or malicious activities.
-
+2. [GTFOBins](https://gtfobins.github.io/) — is a carefully selected list of Unix binaries that can be used to bypass local security restrictions on misconfigured systems. 
+3. [Sploitify](https://sploitify.haxx.it/) — is an interactive cheat sheet containing a carefully selected list of publicly available server-side (mostly) exploits. Its purpose is to help you find exploits that may be useful in various aspects of your offensive security. And, of course, it should not be used for illegal or malicious activities.
+<br>
 If this list isn't enough for you:<br>
 
 1. [RU] [Obsidian-Pentest -> LPE](https://github.com/0xHaskar/Obsidian-Pentest/blob/main/Obsidian-Pentest/Hacking-all/OSCP%20and%20CPTS/LPE.md)
