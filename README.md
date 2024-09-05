@@ -44,7 +44,12 @@ Please also note the following:<br>
 > [!Note]
 > Local Privilege Escalation (LPE) is a type of vulnerability that allows a user or process to gain a higher level of rights or privileges on a computer or network system than originally granted. LPE can be exploited by attackers to gain elevated access to resources or execute commands with increased privileges.
 <br>
-
+Note the following tools:<br>
+> 1. <br>
+> 2. <br>
+> 3. <br>
+If this list isn't enough for you:<br>
+[LPE](https://github.com/0xHaskar/Obsidian-Pentest/blob/main/Obsidian-Pentest/Hacking-all/OSCP%20and%20CPTS/LPE.md)
 
 ### 📌 Thanks:
 ```bash
