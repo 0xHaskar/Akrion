@@ -36,6 +36,7 @@ It's empty so far!
 ```
 
 ### Additionally:
+I had the idea to name a concept that I believe may already exist and might have its own established name, but I want to call it the "Unarmed Container/Server."<br><br>
 The concept of "Unarmed Container/Server" implies a minimalist approach to deploying and managing infrastructure. The main idea is to include only those components and tools in the container or server that are truly necessary for performing specific tasks. This helps to reduce potential vulnerabilities, decrease the image size, and simplify management.<br>
 [Read more [RU]](https://habr.com/ru/companies/oleg-bunin/articles/799773/)
 
