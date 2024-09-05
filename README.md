@@ -57,7 +57,7 @@ If this list isn't enough for you:<br>
 
 ### 📌 Thanks:
 ```bash
-It's empty so far!
+1. https://github.com/s0i37/defence
 ```
 
 ### ♻️ With support:
