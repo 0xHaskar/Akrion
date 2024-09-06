@@ -12,7 +12,15 @@ clients = {}
 
 alerts = []
 
-DISCORD_WEBHOOK_URL = "WEBHOOK_URL"
+# Loading the configuration
+def load_config():
+    # The path to the config.json file, which is located one level higher
+    config_path = os.path.join(os.path.dirname(__file__), '..', 'config.json')
+    with open(config_path, 'r') as config_file:
+        config = json.load(config_file)
+    return config["DISCORD_WEBHOOK_URL"]
+
+DISCORD_WEBHOOK_URL = load_config()
 
 def send_discord_alert(src_ip):
     embed = {
@@ -20,7 +28,7 @@ def send_discord_alert(src_ip):
             {
                 "title": "🛡️ Port Scanning Detected!",
                 "description": f"Port scanning detected from IP: **{src_ip}**",
-                "color": 16711680,  # Red color
+                "color": 16753920,  # Orange color
                 "fields": [
                     {
                         "name": "Source IP",
@@ -29,7 +37,7 @@ def send_discord_alert(src_ip):
                     },
                     {
                         "name": "Alert Level",
-                        "value": "High",
+                        "value": "Medium",
                         "inline": True
                     }
                 ],
