@@ -15,7 +15,7 @@ Akrion — Lightweight defence/SOC for your server!
 > The project is in the development of an alpha version!
 
 ☑️ TCP <br>
-🔲 Discord WebHook <br>
+☑️ Discord WebHook <br>
 🔲 SSH <br>
 🔲 Fail2ban
 
