@@ -3,9 +3,8 @@ import logging
 import requests
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import *
-from os import system
+from os import system, path, getuid
 from sys import argv
-
 
 MAX_PORTS_ALLOWED = 2
 clients = {}
@@ -16,8 +15,11 @@ alerts = []
 def load_config():
     # The path to the config.json file, which is located one level higher
     config_path = os.path.join(os.path.dirname(__file__), '..', 'config.json')
+    assert os.path.exists(config_path), "config file not found"
     with open(config_path, 'r') as config_file:
         config = json.load(config_file)
+        
+    assert config["DISCORD_WEBHOOK_URL"], "url not found"
     return config["DISCORD_WEBHOOK_URL"]
 
 DISCORD_WEBHOOK_URL = load_config()
@@ -64,20 +66,28 @@ def alert(src_ip):
 	print("[!] port scanning %s" % src_ip)
 	send_discord_alert(src_ip)
 	alerts.append(src_ip)
-	
 
 def parse(p):
-	if IP in p and TCP in p:
-		src_ip = p[IP].src
-		src_port = p[TCP].sport
-		dst_port = p[TCP].dport
-		print("[+] %s:%d -> %s:%d" % (src_ip, src_port, ip, dst_port))
-		if not src_ip in clients:
-			clients[src_ip] = set()
-		clients[src_ip].add(dst_port)
-		if len(clients[src_ip]) > MAX_PORTS_ALLOWED:
-			alert(src_ip)
+	#if IP in p and TCP in p:
+    src_ip = p[IP].src
+    src_port = p[TCP].sport
+    dst_port = p[TCP].dport
+    print("[+] %s:%d -> %s:%d" % (src_ip, src_port, ip, dst_port))
+    if not src_ip in clients:
+        clients[src_ip] = set()
+    clients[src_ip].add(dst_port)
+    if len(clients[src_ip]) > MAX_PORTS_ALLOWED:
+        alert(src_ip)
 
-conf.iface = argv[1]
-ip = conf.iface.ip
-sniff(iface=conf.iface, prn=parse, filter='tcp[tcpflags] == tcp-syn and dst host %s'%ip)
+assert getuid() == 0, "must run as root"
+
+if(len(argv) > 1):
+    iface = argv[1]
+else:
+    iface = conf.iface
+
+assert iface in IFACES.data, "interface " + iface + " doesn't exist"
+print(f"selected interface: {iface}")
+ip = IFACES.data[iface].ip
+print(ip)
+sniff(iface=iface, prn=parse, filter='tcp[tcpflags] == tcp-syn and dst host %s'%ip)
