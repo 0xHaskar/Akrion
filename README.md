@@ -12,7 +12,7 @@
 Akrion — Lightweight defence/SOC for your server!
 ```
 > [!Warning]
-> The project is in the development of an alpha version!
+> The project has been moved to https://github.com/Fsecurity-HH/Akrion
 
 ☑️ TCP <br>
 ☑️ Discord WebHook <br>
