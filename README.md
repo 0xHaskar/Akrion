@@ -9,7 +9,7 @@
 
 ## Information:
 ```
-Akrion — Lightweight defence/SOC for your server!
+Akrion — Lightweight defence for your server!
 ```
 > [!Warning]
 > 
