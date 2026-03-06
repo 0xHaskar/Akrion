@@ -52,7 +52,7 @@ Note the following tools:<br>
 <br>
 If this list isn't enough for you:<br>
 
-1. [RU] [Obsidian-Pentest -> LPE](https://github.com/0xHaskar/Obsidian-Pentest/blob/main/Obsidian-Pentest/Hacking-all/Penetration-Testing/LPE.md)
+1. [RU] [Obsidian-Pentest -> LPE](https://github.com/0xHaskar/Obsidian-Pentest/blob/main/Obsidian-Pentest/Hacking-all/Penetration-Testing/LPE%20%26%20Other.md)
 2. [RU] [Obsidian-Pentest -> AD](https://github.com/0xHaskar/Obsidian-Pentest/tree/main/Obsidian-Pentest/Hacking-all/AD) 
 
 ### 📌 Thanks:
