@@ -188,19 +188,6 @@ go mod download
 
 # Обычный запуск без сборки
 sudo go run cmd/server/main.go -interface eth0
-
-# Запуск с горячей перезагрузкой (требует air)
-sudo air
-```
-
-### Тестирование
-
-```bash
-# Запуск тестов
-go test ./...
-
-# С покрытием
-go test -cover ./...
 ```
 
 ## 📄 Лицензия
