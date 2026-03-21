@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="web/static/logo.svg" alt="Akrion" width="200">
+  <img src="web/static/logo.svg" alt="Akrion" width="300">
 </p>
 <p align="center"> 
   <img src="https://img.shields.io/github/stars/0xHaskar/Akrion.svg" alt="Stars">
@@ -10,6 +10,9 @@
 <p align="center">
   <strong>Akrion</strong> — легковесная защита для вашего сервера!
 </p>
+
+> [!WARNING]
+> Don't take the project too seriously, vibe coding project! xD
 
 ## 📋 Возможности
 
