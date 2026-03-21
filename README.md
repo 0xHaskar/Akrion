@@ -29,7 +29,7 @@
 - **Анализ трафика**: [GoPacket](https://github.com/google/gopacket)
 - **HTTP-фреймворк**: [Gin](https://github.com/gin-gonic/gin)
 - **WebSocket**: [Gorilla WebSocket](https://github.com/gorilla/websocket)
-- **База данных**: [GORM](https://gorm.io) + SQLite
+- **База данных**: [GORM](https://github.com/go-gorm/gorm) + SQLite
 - **Системный мониторинг**: [gopsutil](https://github.com/shirou/gopsutil)
 
 ## 💿 Установка
